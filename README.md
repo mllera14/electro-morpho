@@ -34,7 +34,6 @@ library the user can execute:
   
 ```
 conda install <library>
-
 ```
 or for cases when libraries are not available through the conda channel:
 

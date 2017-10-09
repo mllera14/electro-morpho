@@ -64,7 +64,7 @@ def parameter_estimator(structure, data):
 
 
 model = MGNREnsemble(
-    k=50, parameter_estimator=parameter_estimator, structure_optimization=sampler, rng=rng, verbose=False).fit(X, Y)
+    k=50, parameter_estimator=parameter_estimator, structure_fitter=sampler, rng=rng, verbose=False).fit(X, Y)
 
 predicted = model.predict(X_test)
 
